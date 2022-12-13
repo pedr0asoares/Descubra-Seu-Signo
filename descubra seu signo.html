@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é o seu signo?</title>
+    <style>
+        body{
+            background-color:rgb(126, 13, 155) ;
+            color: rgb(255, 255, 255);
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: rgb(247, 243, 46);
+        }
+    </style>
+</head>
+<body>
+    <h1>Qual é o seu signo?</h1>
+    <p>Descubra informações sobre seu signo aqui !</p>
+    <script>
+        alert("Bem vindo Usuário!")
+        var nome = prompt("Qual o seu nome?");
+
+var mesInformado = parseInt(prompt(nome + " qual o mes do seu nascimento? (informe de forma numerica)"));
+
+var diaDeNascimento = parseInt(prompt(nome + " qual o dia do seu nascimento? "));
+
+var mesJaneiro = ("Capricornio. São persistentes e determinados. Sua organização e ambição natas fazem com que sejam muito eficientes e trabalhadores.");
+var mesFevereiro = ("Aquario. Idealista e inventivo, o aquariano costuma ser tranquilo e justo, ao mesmo tempo que gosta de transformar e não se acomodar nas situações. ");
+var mesMarco = ("Peixes. Ouvintes natos, são confiáveis, intuitivos, prestativos e preocupados com os demais. São adaptáveis e simpáticos, os tornando bem sociáveis.");
+var mesAbril = ("Aries. Você se coloca em primeiro lugar, mas sem esquecer dos demais à sua volta! Motiva as pessoas e é prestativo, além de perseverante e apaixonado ");
+var mesMaio = ("Touro. Você é cuidadoso com tudo e com todos, é paciente e produtivo. Desse modo, são pessoas em que se podem confiar e costumam ser muito fiéis");
+var mesJunho = ("Gemeos. Geminianos são animados e comunicativos, eles tem a mente aberta e são muito espertos");
+var mesJulho = ("Cancer. São dedicados e gentis, sempre ouvindo ou cuidando de alguém por perceberam suas emoções e problemas;");
+var mesAgosto = ("Leao. Inteligentes e corajosos, são líderes natos. Por outro lado, são expressivos e determinados: quando colocam algo na mente, pode ter certeza que vão até o fim para conquistá-la;");
+var mesSetembro = ("Virgem. Observação e eficiência são marcas do virginiano, que é bastante atencioso e sincero com os demais e está sempre resolvendo um problema: seja seu ou dos outros.");
+var mesOutubro = ("Libra. Extremamente diplomáticos, são sinceros e buscam ponderar sempre para chegar no melhor resultado. Para isso contam com sua simpatia, boa comunicação e tranquilidade");
+var mesNovembro = ("Escorpiao. De uma auto-confiança invejável (a não ser pelos leoninos…rs), têm muita intuição e um instinto protetor maravilhoso. São dedicados e apaixonados.");
+var mesDezembro = ("Sagitario. São talentosos, inteligentes e justos. São pessoas estimulantes, que gostam de se divertir e têm bastante espontaneidade e vitalidade.");
+
+var mesDoSigno = 0;
+var ano = 12;
+
+
+while(mesInformado <= ano){
+
+    if(mesInformado == 1 && diaDeNascimento <= 19) {
+        alert("Seu signo e " + meszaneiro);
+        break;
+    }
+
+    else if(mesInformado == 2 && diaDeNascimento <= 18) {
+        alert("Seu signo e " + mesFevereiro);
+        break;
+    }
+
+    else if(mesInformado == 3 && diaDeNascimento <= 20) {
+        alert("Seu signo e " + mesMarco);
+        break;
+    }
+
+    else if(mesInformado == 4 && diaDeNascimento <= 19) {
+        alert("Seu signo e " + mesAbril);
+        break;
+    }
+
+    else if(mesInformado == 5 && diaDeNascimento <= 20) {
+        alert("Seu signo e " + mesMaio);
+        break;
+    }
+
+    else if(mesInformado == 6 && diaDeNascimento <= 20) {
+        alert("Seu signo e " + mesJunho);
+        break;
+    }
+
+    else if(mesInformado == 7 && diaDeNascimento <= 22) {
+        alert("Seu signo e " + mesJulho);
+        break;
+    }
+
+    else if(mesInformado == 8 && diaDeNascimento <= 22) {
+        alert("Seu signo e " + mesAgosto);
+        break;
+    }    
+
+    else if(mesInformado == 9 && diaDeNascimento <= 22) {
+        alert("Seu signo e " + mesSetembro);
+        break;
+    }
+
+    else if(mesInformado == 10 && diaDeNascimento <= 22) {
+        alert("Seu signo e " + mesOutubro);
+        break;
+    }
+
+    else if(mesInformado == 11 && diaDeNascimento <= 21) {
+        alert("Seu signo e " + mesNovembro);
+        break;
+    }
+
+    else if(mesInformado == 12 && diaDeNascimento <= 21) {
+        alert("Seu signo e " + mesDezembro);
+        break;
+    }
+}
+
+alert("FIM");
+    </script>
+</body>
+</html>
